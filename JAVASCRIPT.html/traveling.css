@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(rgba(0,0,0,0.3),#87cce7) ,url("/IMAGES/PHOTOS.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+
+}
+.logo{
+    
+    position: absolute;
+    margin-left: 260PX;
+    top: 80px;
+    
+}
+.logo img{
+    width: 170px;
+    margin-top: 0px;
+    height: 50px;
+}
+#travel{
+    color: white;
+    font-size: 50px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 50px;
+    z-index: 5;
+    display: flex;
+}
+#travel big {
+    color:rgb(221, 17, 44);
+    font-style: italic;
+    font-family:sans-serif;
+
+}
+.sub{
+    color: white;
+    font-style: italic;
+    font-size:25px;
+    margin-top: 0px;
+    margin-left: 180px;
+    position: absolute;
+
+}
+/*div img{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -100;
+    position: absolute;
+}*/
+.text{
+    color: whitesmoke;
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+.text h2{
+    margin-left: 30px;
+
+}
+.text h3{
+    margin-left: 200px;
+
+}
+.article{
+    width: 60%;
+    color: rgb(241, 235, 222);
+    font-size: 20px;
+    margin-left: 35px;
+    text-transform: capitalize;
+    
+}
+#menunav {
+    position: absolute;
+    font-size: 36px;
+    top: 0;
+    right: 0;
+    width: 280px;
+    height: 700px;
+    display: flex;
+    padding-top: 50px;
+    background: rgb(94, 174, 228);
+    z-index: 2;
+    transition: 0.75s;
+    align-items: center;
+    justify-content: center;
+
+}
+#menunav ul{
+    list-style: none;
+    text-decoration: none;
+    color:wheat;
+    margin-top: 30px;
+
+}
+#menunav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    line-height: 60px;
+
+}
+#menubtn{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    background: #a8d7ec;
+    z-index: 3;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+
+}
+#menubtn img{
+    width: 40px;
+    margin-top: 6.5px;
+}
+.expo p a{
+    font-size: 22px;
+    color:black;
+    text-decoration: none;
+    background-color: whitesmoke;
+    margin-left: 500px;
+    margin-top: 0px;
+    letter-spacing: 4px;
+    padding: 10px 30px; 
+    border-radius: 4px; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.expo p a:hover{
+    color: whitesmoke;
+    background-color: black;
+    font-style: italic;
+    font-weight: 200;
+    transition: 0.85s;
+    border-radius: 8px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: solid 2px rgb(224, 48, 186);
+
+}
+.social{
+    position: absolute;
+    margin-left:350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+    bottom:0px;
+    transform: scale(0.6);
+    bottom: 15px;
+
+    
+}
+#network{
+    margin-top: 50px;
+    padding-top: 30px;
+    position: relative;
+    bottom: 15px;
+}
+
+.social li{
+    list-style: none;
+}
+.social li a{
+    display: inline-block;
+    margin-right: 40px;
+    bottom: 15px;
+    padding-right: 80px;
+    background-color: whitesmoke;
+    width: 40%;
+
+
+}
+.social li a:hover{
+    background-color: rgb(211, 150, 150);
+    border: solid white 3px;
+    border-radius: 16px;
+    transition: 0.75s;
+}
+@media (max-width:800px){
+    .article{
+        font-size: 12px;
+    }
+    #travel{
+        font-size: 35px;
+    }
+    .expo p a{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
